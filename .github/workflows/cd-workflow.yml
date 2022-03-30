@@ -61,4 +61,4 @@ jobs:
         password: ${{secrets.LABS_GITHUB}}
         registry: docker.pkg.github.com
         repository: LeonardoCruzT/github-actions-for-packages/tic
-        tag_with_sha: false          
+        tags: latest        
